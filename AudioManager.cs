@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using QS_Audio.Requirements;
 
 public class AudioManager : MonoBehaviour
 {
@@ -29,10 +30,10 @@ public class AudioManager : MonoBehaviour
     public float targetVolume;
 
     private void OnEnable() {
-        Actions.OnGlobalAudioFadeOut += GlobalFadeOut;
+        AudioActions.OnGlobalAudioFadeOut += GlobalFadeOut;
     }
     private void OnDisable() {
-        Actions.OnGlobalAudioFadeOut -= GlobalFadeOut;
+        AudioActions.OnGlobalAudioFadeOut -= GlobalFadeOut;
     }
 
     public void PrepareAudioSource(AudioSource source, AudioTrack track, bool changeTrack)

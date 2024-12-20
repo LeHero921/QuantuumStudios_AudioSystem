@@ -1,7 +1,10 @@
+namespace QS_Audio.Requirements {
+
 using System;
 
-public class Actions
+public class AudioActions
 {
-    // From QS_AudioSystem.Requirements
     public static Action OnGlobalAudioFadeOut;
+}
+
 }
