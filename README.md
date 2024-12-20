@@ -3,6 +3,7 @@
 <h3 align="center">
 v1 of QS Audio System
 </h3>
+Join the discord for questions: https://discord.gg/drfSzY9ZPp
 
 ---
 
