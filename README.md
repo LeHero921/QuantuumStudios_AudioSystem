@@ -11,6 +11,7 @@ Audio System Overview
 </h2>
 
 Important Scripts:
+- Audio Manager
 - Audio Zone
 - Audio Track (Scriptable Object)
 - Audio Preset
